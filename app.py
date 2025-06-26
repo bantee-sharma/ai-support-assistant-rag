@@ -30,11 +30,17 @@ You're a support agent. A customer reported the following issue:
 
 "{ticket}"
 
-Using the support documents below, generate a polite and helpful response:
-{context}.
-If required you can say reply on this mail 'xyz@support.com' and helpline number '1010100101'
-""",
-input_variables=["ticket","context"]
+Using the support documents below, generate a clear, **non-repetitive**, polite, and helpful response.
+
+Avoid repeating the same phrases or bullet points multiple times.
+
+Support Documents:
+{context}
+
+If required, you may mention: 
+- Reply on this email: xyz@support.com
+- Helpline number: 1010100101
+""", input_variables=["ticket","context"]
 )
 
 llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash")
