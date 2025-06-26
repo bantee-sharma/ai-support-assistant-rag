@@ -1,0 +1,12 @@
+langchain
+langchain-core
+langchain-community
+
+google-generativeai
+langchain-google-genai 
+faiss-cpu
+python-dotenv
+pypdf
+
+langchain-huggingface
+huggingface-hub
