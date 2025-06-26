@@ -31,7 +31,8 @@ You're a support agent. A customer reported the following issue:
 "{ticket}"
 
 Using the support documents below, generate a polite and helpful response:
-{context}
+{context}.
+If required you can say reply on this mail 'xyz@support.com' and helpline number '1010100101'
 """,
 input_variables=["ticket","context"]
 )
