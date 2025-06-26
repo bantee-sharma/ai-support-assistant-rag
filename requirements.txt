@@ -10,3 +10,4 @@ pypdf
 
 langchain-huggingface
 huggingface-hub
+textblob
