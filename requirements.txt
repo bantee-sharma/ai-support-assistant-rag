@@ -10,4 +10,5 @@ pypdf
 
 langchain-huggingface
 huggingface-hub
+sentence-transformers
 textblob
